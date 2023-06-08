@@ -43063,7 +43063,7 @@ grid.renderOrder = 0;
 const loadingScreen = document.getElementById('loader-container');
 const progressText = document.getElementById('progress-text');
 
-    gltfloader.load('/HouseLoaderPage/medieval_house_and_wine_shop.glb',
+    gltfloader.load('./medieval_house_and_wine_shop.glb',
     (gltf) => {
         scene.add(gltf.scene.rotateY(5).translateY(-150).translateX(250).translateZ(-20));
         loadingScreen.classList.add('hidden');
