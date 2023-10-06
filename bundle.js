@@ -43058,7 +43058,7 @@ grid.material.depthTest = false;
 grid.renderOrder = 0;
 //scene.add(grid);
 
-// 2 The object
+// 2 The object IT'S GLB!
 
 const loadingScreen = document.getElementById('loader-container');
 const progressText = document.getElementById('progress-text');
