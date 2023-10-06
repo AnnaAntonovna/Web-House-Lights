@@ -43058,12 +43058,12 @@ grid.material.depthTest = false;
 grid.renderOrder = 0;
 //scene.add(grid);
 
-// 2 The object IT'S GLB!
+// 2 The object IT'S GLB!0
 
 const loadingScreen = document.getElementById('loader-container');
 const progressText = document.getElementById('progress-text');
 
-    gltfloader.load('/Web-House-Lights/medieval_house_and_wine_shop.gl',
+    gltfloader.load('/Web-House-Lights/medieval_house_and_wine_shop.glb',
     (gltf) => {
         scene.add(gltf.scene.rotateY(5).translateY(-150).translateX(250).translateZ(-20));
         loadingScreen.classList.add('hidden');
