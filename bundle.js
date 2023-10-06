@@ -43175,7 +43175,7 @@ const cameraControls = new CameraControls(camera, canvas);
 cameraControls.dollyToCursor = true;
 
 
-// 8 Animation
+// 8 Animation 12
 
 function animate() {
     const delta = clock.getDelta();
